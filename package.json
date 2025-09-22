@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js"
+  "build": "netlify-lambda build functions",
+  "start": "netlify dev"
 },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^4.0.0"
   }
 }
